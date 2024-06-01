@@ -325,10 +325,10 @@ h1{
 }
 
 .slider{
-    margin-left: 30%;
+    margin-left: 25%;
     width: 800px;
-    height: 600px;
-    transform: translateY(15rem);
+    height: 500px;
+    transform: translateY(10rem);
     overflow: hidden;
  }
  
