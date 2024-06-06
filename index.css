@@ -65,29 +65,44 @@ header ul li a{
     width: 180px;
     height: 180px;
 }
-.home{
-align-items: center;
-text-align: center;
-transform: translateY(2rem);
+.menu{
+    width: 50%;
 }
 
-.icones{
-    display: flex;
-    transform: translateY(2rem);
-    margin-right: 5%;
-   
+.menu nav a{
+    color: orange;
+    text-decoration: none;
+    padding-right: 35px;
+    font-size: 20px;
+    position: relative;
 }
-
-#whatsapp{
+.menu nav a::after{
+    content: " ";
+    width: 0px;
+    height: 4px;
+    background-image: linear-gradient(45deg, #FF2500, #FF7100);
+    position: absolute;
+    top: 30px;
+    left: 0;
+    transition: width 0.5s;
+}
+.menu nav a:hover::after{
+    width: 30px;
+}
+.menu{
+    background-color: #fef6ad;
+}
+.socias button{
     width: 40px;
     height: 40px;
-    margin-left: 17%;
-
+    background-image: linear-gradient(45deg, #FF2500, #FF7100);
+    border-radius: 20%;
+    margin-right: 10px;
+    cursor:pointer;
 }
-
-#instagram{
-    width: 40px;
-    height:40px;
+.socias button i{
+    font-size: 30px;
+    color: #ffffff;
 }
 
 .credito{
@@ -557,4 +572,142 @@ footer{
     justify-content: center;
     height: 3em;
     font: italic 200 1.6em sans-serif;
+}
+/*Media Queries*/ 
+
+@media screen and (max-width:960px){
+    /* Logo e Navbar*/
+    .logo,.socias{
+     display: none;
+ }
+ 
+     /* Principal */
+#bg-principal{
+flex-direction: column-reverse;
+}
+#bg-principal h1{
+ flex-direction: row;
+ font-size: 2.5em;
+ color: #f76222;
+ padding-right: 11px;
+}
+.imagem-mulher{
+ height: 15rem;
+ padding: 1%;
+ 
+}
+ /*SECTION 1*/
+#section1{
+ flex-direction: column;
+ 
+}
+#caixa-sobre{
+
+ margin-top: 2rem;
+ height: 5rem;
+ align-items: start;
+ padding: 2rem;
+ flex-direction: column;
+ margin-bottom: -8rem;
+ width: 20px;
+ height: 10px;
+ transform: translateY(18rem);
+ margin-right: 23.75rem;
+ background: #fef6ad;
+}
+#titulo{
+    margin-bottom: -36em;
+}
+#caixa-sobre h1{
+ padding-left: 10px;
+ margin-top: 2em;
+ font-size: 38px;
+ font-weight: 0;
+ 
+ color:#2f0353;
+}
+#caixa-sobre p{
+    flex-direction: column;
+    margin-top: 1rem;
+    width: 375px;
+    font-size: 17px;  
+    text-align:justify;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #f76222;
+    
+}
+.content-sobre p{
+ margin-bottom: 44rem;
+
+}
+
+.imagem_sessao{
+ flex-direction: column;
+ height: 15rem;
+ width: 350px;
+ margin-left: 0rem;
+ margin-top: 39rem;
+ transform: translateY(1rem);
+}
+#imagem-espaco {
+    display: none;
+    height: 18rem;
+    margin-left: 0rem;
+    margin-top: 10rem;
+    margin-bottom: 20rem;
+    border-radius: 5%;
+    transform: translateY(2.5rem);
+}
+ /*SECTION 2*/
+ .cards{
+     flex-direction: column;
+     margin-top: 7rem;
+     padding-left: 20px;
+    margin-bottom: -20%;
+ }
+ .card{
+     float: right;
+     margin: 1.8rem;
+     width: 18rem;
+     border-radius: 25px 25px 0 25px;
+     background-color: #ffffff;
+     margin-top: 2rem;
+     transform: translateY(-5rem);
+     border: 2px solid black;
+ }
+ 
+ /*SECTION 3*/
+
+ .slider{
+     margin-top: 400%;
+     margin-left: 0rem;
+     width: 100vw;
+     height: 600px;
+     transform: translateY(2rem);
+     overflow: hidden;
+    
+     margin-bottom: 26%;
+  }
+  .slide{
+     width: 18%;
+     position: relative;
+     transition: 3s;
+     margin-right: 95px;
+  
+  }
+ .slide img{
+     width: 455px;
+     height: 650px;
+  
+  }
+
+
+
+  
+/*========================SECTION 4======================================================*/
+  #section4{
+     height: 800px;
+  }
+
 }
