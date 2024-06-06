@@ -65,6 +65,10 @@ header ul li a{
     width: 180px;
     height: 180px;
 }
+
+
+
+
 .menu{
     width: 50%;
 }
@@ -75,6 +79,7 @@ header ul li a{
     padding-right: 35px;
     font-size: 20px;
     position: relative;
+    margin-left: -12px;
 }
 .menu nav a::after{
     content: " ";
