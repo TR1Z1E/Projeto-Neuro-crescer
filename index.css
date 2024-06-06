@@ -712,9 +712,12 @@ flex-direction: column-reverse;
      height: 650px;
   
   }
-
-
-
+ .auto-btn1{
+    margin-left: 400px;
+ }
+  .manual-btn{
+    margin-right: 400px;
+  }
   
 /*========================SECTION 4======================================================*/
   #section4{
