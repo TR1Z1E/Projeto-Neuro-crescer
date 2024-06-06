@@ -60,27 +60,31 @@ header ul li a{
     font-size: 20px;
 }
 
-#logo{
-    transform: translateY(15px);
-    width: 180px;
-    height: 180px;
-}
+
 
 #LOGO-nav{
-    width: 375px;
+    width: 190px;
+    height: 190px;
+    transform: translateY(1.2rem);
 }
 
 .menu{
     width: 50%;
+    transform: translateY(2rem);
 }
 
 .menu nav a{
     color: orange;
     text-decoration: none;
     padding-right: 35px;
+    width: 103px;
+    text-align: center;
     font-size: 20px;
     position: relative;
-    margin-left: -12px;
+    margin-left: -32px;
+  
+    
+    
 }
 .menu nav a::after{
     content: " ";
@@ -105,6 +109,7 @@ header ul li a{
     border-radius: 20%;
     margin-right: 10px;
     cursor:pointer;
+    transform: translateY(2rem);
 }
 .socias button i{
     font-size: 30px;
