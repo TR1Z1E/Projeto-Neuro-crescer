@@ -66,8 +66,9 @@ header ul li a{
     height: 180px;
 }
 
-
-
+#LOGO-nav{
+    width: 375px;
+}
 
 .menu{
     width: 50%;
