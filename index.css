@@ -584,6 +584,9 @@ footer{
     height: 3em;
     font: italic 200 1.6em sans-serif;
 }
+.socialmobile{
+    display: none;
+}
 /*Media Queries*/ 
 
 @media screen and (max-width:960px){
@@ -591,6 +594,29 @@ footer{
     .logo,.socias{
      display: none;
  }
+/*=========NAV BAR NORMAL==================*/
+ .menu {
+    display: none;
+ }
+/*=============BOTAO MOBILE================*/
+.socialmobile{
+    display: flex;
+    flex-direction: row;
+    margin-left:20px;
+    margin-top: 40px;
+}
+.socialmobile button i{
+    font-size: 30px;
+    color: #ffffff;
+}
+.socialmobile button{
+    width: 40px;
+    height: 40px;
+    background-image: linear-gradient(45deg, #FF2500, #FF7100);
+    border-radius: 20%;
+    margin-right: 10px;
+    cursor:pointer;
+}
  
      /* Principal */
 #bg-principal{
